@@ -1,0 +1,90 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Bootcamp assignment 1 2022</title>
+<style>
+header{
+background-color:#FFD700; 
+height:15%;
+}
+
+ul{
+float : right;
+margin-top:3%;
+margin-right:1%;
+}
+
+li{
+display:inline;
+}
+#n1,#n2,#n3{
+text-decoration:none; 
+color:#000000;
+
+}
+#img1{
+float:left; height:100%; width:15%;
+}
+main{
+background-color:#E0FFFF; height:80%;
+}
+footer{
+background-color:#FFD700; 
+height:30%; 
+margin-top:0%;
+}
+main{
+background-color:#E0FFFF; 
+height:auto;
+}
+
+</style>
+</head>
+<body>
+
+<!--Opening a header-->
+<header>
+
+<!--logo image-->
+<img src="SGN_02_09_2021_1612854133145.png" id="img1">
+<!--linking web pages-->
+<ul>
+<li><a href="index.html" id="n1"><b>Home</b></a>|</li>
+<li><a href="contact.html" id="n2"><b>Contact Us</b></a>|</li>
+<li><a href="about.html" id="n3" ><b>About Me</b></a>|</li>
+</ul>
+
+
+</header>
+
+
+<!--Opening main-->
+<main >
+
+<!--H1 for about me-->
+<h1 align=center>About Me</h1>
+<br/><br/>
+<!--Paragraph of about me-->
+<p align=center id="p1"></p>
+<script>
+var abt="Simphiwe Mkhonza is an Information Technology Graduate (BSc), specialising in Systems Development. Simphiwe Mkhonza is a talented multi-skilled developer with an excellent result. Ability to think logically to solve problems programmatically and theoretically. Possessing an excellent communication skill and an ability to communicate professionally with people at all levels and adapt quickly to new environment. Reliable, punctual, hard working, willing and eager to learn new tasks or skills quickly.Mr Simphiwe Mkhonza worked as an Automation Software Tester(intern) for the company named Wipro Technologies for a period of 6 months in 2018.";
+var ary=["Tertiary Education","Institution: Richfield Graduate Institute of Technology", "Period: 2015-2018","Qualification: Bachelor of Science in Information Technology","High school/Equivalent","Institution: PC Training and Business College","Period: 2014-2014","Qualification: Technical Support (in Data Communication) [NQF 4]"];
+var aryy=["WORK EXPERIENCE","Employer: Richfield Graduate Institute of Technology","Duration: 02/2018 to 06/2018","Position: Computer Lab Assistance(intern)"];
+var aryyy=["Employer: Wipro Technologies","Duration: 07/2018 to 12/2018","Position: Quality Assurance(intern)"];
+var arr=["Employer: Transnet RME","Duration: 11/2019 to 03/2020","Position: Infra Worker(Contract)"];
+document.getElementById("p1").innerHTML=abt +"</br></br>"+ "<b>"+ary[0]+"</b></br>"+ ary[1] +"<br>"+ ary[2]+"<br>"+ary[3]+"<br><br><b>"+ary[4]+"</b><br>"+ary[5]+"<br>"+ary[6]+"<br>"+ary[7]+"<br><br><b>"+aryy[0]+"</b><br>"+aryy[1]+"<br>"+aryy[2]+"<br>"+aryy[3]+"<br><br>"+aryyy[0]+"<br>"+aryyy[1]+"<br>"+aryyy[2]+"<br><br>"+arr[0]+"<br>"+arr[1]+"<br>"+arr[2];
+
+
+</script>
+
+
+
+</main>
+<!--Opening a footer with social media links, and  phone number--->
+<footer><p align=center>
+<br>&copy Copyright 2022 by Simphiwe Mkhonza. All Rights Reserved.<br/><br/><a href="http://www.facebook.com/profile.php?id=100013387244768"><img src="facebook.png"></a>
+<br/><br/><a href="https://twitter.com/snmkhonza11"><img src="twitter.png"></a>
+<br/><br/>
+Contact Number: +2781 704 1820
+</p></footer>
+</body>
